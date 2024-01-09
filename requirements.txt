@@ -1,0 +1,7 @@
+black
+nbval
+pytest
+pytest-cov
+pylint
+matplotlib
+pandas

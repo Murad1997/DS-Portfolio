@@ -1,8 +1,9 @@
 [![Python application test with Github Actions](https://github.com/Murad1997/DS-Portfolio/actions/workflows/main.yml/badge.svg)](https://github.com/Murad1997/DS-Portfolio/actions/workflows/main.yml)
 # DS-Portfolio
 
-  - We use the electric vhicle dataset provided by the Washington State Department of Licensing and is available [here](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data). This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
-  - The selected dataset from teh Washington State Department of Licensing (DOL) has `163K` rows and `17` columns. The detials of the columns are as follows:
+## Data Description
+* We use the electric vhicle dataset provided by the Washington State Department of Licensing and is available [here](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data). This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
+* The selected dataset from teh Washington State Department of Licensing (DOL) has `163K` rows and `17` columns. The detials of the columns are as follows:
 
    <table>
   <thead>

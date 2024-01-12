@@ -1,8 +1,9 @@
-black
-nbval
-pytest
-pytest-cov
-pylint
 matplotlib
 pandas
 requests
+nbval
+pytest
+black
+pytest-cov
+pylint
+seaborn

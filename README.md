@@ -85,7 +85,7 @@
   </table>
 
 ## Interesting Plot
-* In the plot below we plot the number of vechicles register with the Washington DOL by each maker over the span of 22 years (i.e., 1997-2023). We do not divide based ont the vehicle type (i.e., we consider the both BEVs and PEHVs).
+* In the plot below we plot the number of vechicles register with the Washington DOL by each maker over the span of 22 years (i.e., 1997-2023). We do not divide based ont the vehicle type (i.e., we consider the both BEVs and PHEVs).
 
 ![](./figures/number_of_vehicles_combined_type.png)
 

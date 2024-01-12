@@ -82,3 +82,6 @@
       </tr>
   </tbody>
   </table>
+  
+## My Notebook
+* [Run my Colab Notebook](https://colab.research.google.com/github/Murad1997/DS-Portfolio/blob/main/Data_analysis_and_modeling.ipynb#scrollTo=uf0AIlCkhDDN)

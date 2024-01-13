@@ -2,8 +2,8 @@
 # DS-Portfolio
 
 ## Data Description
-* We use the electric vhicle dataset provided by the Washington State Department of Licensing and is available [here](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data). This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
-* The selected dataset from teh Washington State Department of Licensing (DOL) has `163K` rows and `17` columns. The detials of the columns are as follows:
+* We use the electric vehicles dataset provided by the Washington State Department of Licensing which is available [here](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data). This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through the Washington State Department of Licensing (DOL).
+* The selected dataset from the Washington State Department of Licensing (DOL) has `163K` rows and `17` columns. The details of the columns are as follows:
 
    <table>
   <thead>
@@ -31,7 +31,7 @@
       </tr>
       <tr>
         <td>Postal Code</td>
-        <td>The 5 digit zip code in which the registered owner resides.</td>
+        <td>The 5-digit zip code in which the registered owner resides.</td>
       </tr>
       <tr>
         <td>Model Year</td>
@@ -47,11 +47,11 @@
       </tr>
       <tr>
         <td>Electric Vehicle Type</td>
-        <td>This distinguishes the vehicle as all electric or a plug-in hybrid.</td>
+        <td>This distinguishes the vehicle as an electric or a plug-in hybrid.</td>
       </tr>
       <tr>
         <td>Clean Alternative Fuel Vehicle (CAFV) Eligibility</td>
-        <td>This categorizes vehicle as Clean Alternative Fuel Vehicles (CAFVs) based on the fuel requirement and electric-only range requirement in House Bill 2042 as passed in the 2019 legislative session.</td>
+        <td>This categorizes vehicles as Clean Alternative Fuel Vehicles (CAFVs) based on the fuel requirement and electric-only range requirement in House Bill 2042 as passed in the 2019 legislative session.</td>
       </tr>
       <tr>
         <td>Electric Range</td>
@@ -67,7 +67,7 @@
       </tr>
       <tr>
         <td>DOL Vehicle ID</td>
-        <td>Unique number assigned to each vehicle by Department of Licensing for identification purposes.</td>
+        <td>Unique number assigned to each vehicle by the Department of Licensing for identification purposes.</td>
       </tr>
       <tr>
         <td>Vehicle Location</td>
@@ -88,6 +88,11 @@
 * In the plot below we plot the number of vechicles register with the Washington DOL by each maker over the span of 22 years (i.e., 1997-2023). We do not divide based ont the vehicle type (i.e., we consider the both BEVs and PHEVs).
 
 ![](./figures/number_of_vehicles_combined_type.png)
+
+## Conclusions
+* In conclusion, we analyzed the EV data provided by the DOL Washington. Firstly, we reduced the memory usage of the dataset by converting the data types that occupy less space in memory without losing any information. Specifically, we decreased the memory usage from `127 MBs` to `15 MBs`, resulting in approximately an `88%` reduction. In the subsequent analysis, our findings show that Tesla has the highest number of registered EVs with the DOL Washington. As for PHEVs, Toyota has the highest number of registered vehicles.
+
+**Note:** More to come.
 
 ## My Notebook
 * [Run my Colab Notebook](https://colab.research.google.com/github/Murad1997/DS-Portfolio/blob/main/Data_analysis_and_modeling.ipynb#scrollTo=uf0AIlCkhDDN)

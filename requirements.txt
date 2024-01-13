@@ -7,3 +7,4 @@ black
 pytest-cov
 pylint
 seaborn
+plotly
